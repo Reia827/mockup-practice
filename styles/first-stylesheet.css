@@ -10,6 +10,14 @@
     text-align: center;
 }
 
+/* change font to arial*/
+
+}
+
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* nav bar box*/
 <style>
 ul {
