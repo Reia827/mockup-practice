@@ -1,15 +1,98 @@
 /* for tip to style entire sheet see bottom css */
 /* Style the header */
 
+16px ==1rem
+
+html 
 {
-  margin: 0;
-}
-.header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
+  font-size: 16px;
 }
 
+{
+  box-sizing: border-box
+}
+a {
+  color: red
+}
+header {
+  background-color: black;
+  padding: 20px
+  text-align: left
+}
+header h1 {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  margin-bottom: 2em
+}
+header h3 {
+  color: darkgray;
+  padding-bottom: 1rem;
+  margin-left: 2rem;
+  margin-top: .2rem;
+  margin-bottom: 0;
+}
+header h4 {
+  text-align: right;
+  padding-top: 1rem;
+  margin-top: 0;
+  margin-right: 2rem;
+}
+nav {
+  background-color: darkgray;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+article {
+  float: left;
+  width: 65%;
+  margin-left: 15px;
+}
+.testimonial {
+  font-style: italic;
+}
+.sidebar {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  width: 25%;
+  border: solid;
+}
+.sidebar h3{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: .5rem;
+  margin: 0;
+}
+.sidebar-text {
+  text-align: left;
+  width: 50%;
+  padding: .5 rem;
+  margin: 0;
+}
+.sidebar-link {
+  text-align: right;
+  margin-right: 10px;
+}
+footer {
+  background-color: black;
+  color: white;
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 250px;
+}
+footer h5 {
+  padding: 2px;
+  margin: 1px;
+  margin-left: 15px;
+}
+footer h6 {
+  text-align: center;
+  margin: 0;
+}
 /* change font to arial*/
 
 }
