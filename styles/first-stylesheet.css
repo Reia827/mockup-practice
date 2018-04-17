@@ -21,30 +21,33 @@ header {
 }
 header h1 {
   color: white;
+  text-align: left;
   text-decoration: none;
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-bottom: 2em
 }
 header h3 {
   color: darkgray;
+  text-align: left;
   padding-bottom: 1rem;
-  margin-left: 2rem;
-  margin-top: .2rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
   margin-bottom: 0;
 }
 header h4 {
+  color: red;
   text-align: right;
   padding-top: 1rem;
   margin-top: 0;
   margin-right: 2rem;
-  color: red;
 }
 nav {
   background-color: darkgray;
   text-align: justify;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 article {
   float: left;
@@ -61,6 +64,12 @@ article {
   margin-right: 10px;
   width: 25%;
   border: solid;
+  }
+.sidebar h2{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: .5rem;
+  margin: 0;
 }
 .sidebar h3{
   text-align: center;
@@ -68,16 +77,24 @@ article {
   padding: .5rem;
   margin: 0;
 }
+/* testing font size
+.sidebar h4{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: .5rem;
+  margin: 0;
+}*/
+
 .sidebar-text {
-  text-align: left;
+  text-align: center;
   width: 50%;
   padding: .5 rem;
   margin: 0;
 }
 .sidebar-link {
+  color: red;
   text-align: right;
   margin-right: 10px;
-  color: red;
 }
 footer {
   background-color: black;
