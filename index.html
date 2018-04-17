@@ -1,56 +1,97 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
+  <head>
   <title>Kitties To Go!</title>
-  <meta name="description" content="kittens">
+  <meta charset="utf-8">
+  <meta name="description" content="cats rental">
+  <meta name="keywords" content="kittens, cats, rentals, adoption, drive thru">
   <meta name="author" content="Kitties to Go! LLC">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-  <link rel="stylesheet.css" type="text/css" href="styles/first-stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
 </head>
 
-<body>
-  <article>
+  <!--Thank you, Tobias for sharing your work, I broke up my code like you did-->
+
+  <body>
     <header>
-      <h1>Kitties To Go!</h1>
-      <p class="sansserif">This is a paragraph, shown in the Arial font.</p>
-      <h4>Seattles's Premier drive-thru cat rentals</h4>
+      <h4>
+        <a href="index.html" target="_blank">Open right MEOW! Book a cat &rarr;</a>
+      </h4>
+      <h1>
+        Kitties To Go!
+      </h1>
+      <h4>
+        Seattles's Premier drive-thru cat rentals
+      </h4>
     </header>
-  </article>
-  <nav>
-  <a href="#about">About</a>
-  <a href="#rates">Rates</a>
-  <a href="#liability">Liability Release</a>
-  <a href="#kitty-profiles">Kitty Profiles</a>
-  <a href="#book-a-cat">Book a Cat</a>
-  </nav>
-  <h3>The Kitties To Go Story</h3>
-  <p>Cat ipsum dolor sit amet, has closed eyes but still sees you meow. Scratch at the door then walk way destroy the blinds for curl into a furry donut swat turds around the house kick up litter thug cat stare at ceiling light. Intently stare at the same spot paw at beetle and eat it before it gets away scamper.</p>
-  <h3>Testimonials</h3>
-  <p>"Please stop looking at your phone and pet me. Lounge in the doorway eat and then sleep on your face meowwww meowwww" -Jeremy</p>
-  <p>Meow get video posted to internet for chasing red dot" -Jenny from the block</p>
-  
+        
+    <main>
+      <nav>
+        <div class="topnav">
+            <a class="active" href="#about">About</a>
+            <a href="#rates">Rates</a>
+            <a href="#liability release">Liability Release</a>
+            <a href="#kitty profiles">Kitty Profiles</a>
+            <a href="#book a cat">Book a Cat</a>
+        </div>
+      </nav>
+      <article>
+        <h3>
+          The Kitties To Go Story
+        </h3>
+        <p>
+          Cat ipsum dolor sit amet, has closed eyes but still sees you meow. Scratch at the door then walk way destroy the blinds for curl into a furry donut swat turds around the house kick up litter thug cat stare at ceiling light. Intently stare at the same spot paw at beetle and eat it before it gets away scamper.
+        </p>
+        <h3>
+          Testimonials
+        </h3>
+        <p class="testimonial">
+          "Please stop looking at your phone and pet me. Lounge in the doorway eat and then sleep on your face meowwww meowwww" -Jeremy
+        </p>
+        <p class="testimonial">
+          "Meow get video posted to internet for chasing red dot" -Jenny from the block
+        </p>
+      </article>
+    </main>
+
   <!--this is for right box area-->
   
-  <h3>Cat of the Week</h3>
-  <img src="images/biscuit.png" alt="Biscuit" width="42" height="42">
-  <p>The Biscuit</p>
-  <p>All she wants is to break your walls. Book Now</p>
-  <h3>Fan Favorite</h3>
-  <img src="images/odin.png" alt="Odin" width="42" height="42">
-  <p>Odin</p>
-  Book Now
+  <aside class="sidebar">
+    <h3>
+      Cat of the Week
+    </h3>
+      <img src="images/biscuit.png" alt="Biscuit" width="42" height="42">
+    <h3>The Biscuit</h3>
+    <p class="sidebar-text">
+      All she wants is to break your walls. 
+      </p>
+    <div class="sidebar-link">
+      <a href="">Book Now &rarr;</a> <!--thanks for tip on arrow, Tobias-->
+      </div>
+    <h3>
+      Fan Favorite
+    </h3>
+      <img src="images/odin.png" alt="Odin" width="42" height="42">
+    <h3>
+      Odin
+    </h3>
+    <div class="sidebar-link">
+      <a href="">Book Now &rarr;</a>
+    </div>
+  </aside>
   
   <footer>
-    <h5>Kitties To Go!<br>
+    <h5>
+      Kitties To Go!<br>
         (555) 867-5309<br>
-        <a href="maito:kittiestogo@catmail.com?Subject=Hello"target="_top">kittiestogo@catmail.com</a></h5>
-    <h6>Please Cat Responsibly<br>
-        copyright 2016 Kitties to Go!, LLC</h6>
+        <a href="maito:kittiestogo@catmail.com?Subject=Hello"target="_top">kittiestogo@catmail.com</a>
+    </h5>
+    <h6>
+      Please Cat Responsibly<br>
+      copyright 2016 Kitties to Go!, LLC
+    </h6>
   </footer>
-  
 </body>
 </html>
