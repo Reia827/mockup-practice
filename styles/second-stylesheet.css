@@ -8,7 +8,7 @@
 
 body {
   box-sizing: border-box;
-  background-color: black;
+  background-color: darkgray;
 }
 
 a {
@@ -22,7 +22,7 @@ main {
 }
 
 header {
-  background-color: purple;  
+  background-color: goldenrod;  
 }
 
 header a, header h1, header h3{
@@ -30,7 +30,7 @@ header a, header h1, header h3{
 }
 
 header >a {
-  background-color: yellow;
+  background-color: goldenrod;
   float: right;
 }
 
@@ -41,19 +41,19 @@ header h1 {
 }
 
 header h3 {
-  color: gray;
+  color: black;
   font-size: .8em;
   padding-bottom: 1em;
 }
 
 nav{
   padding: 1em .45em;
-  background-color: gray;
+  background-color: lightgray;
 }
 
 nav a{
   width: 16%; /*spacing in nav bar options*/
-  color: purple;
+  color: darkorange;
 }
 
 article {
@@ -86,8 +86,8 @@ aside section {
 
 footer {
   clear:both;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: darkgray;
   width: 80%;
   margin: 1% auto;
 }
