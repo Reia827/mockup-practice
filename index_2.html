@@ -8,45 +8,44 @@
       <meta name="keywords" content="kittens, cats, rentals, adoption, drive thru">
       <meta name="author" content="Kitties to Go! LLC">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-        <!--<link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">-->
-        <link rel="stylesheet" type="text/css" href="styles/second-stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
   </head>
 
   <!--Thank you, Tobias for sharing your work, I broke up my code like you did-->
 
   <body>
-    <main>
     <header>
+      <h4>
         <a href="index.html" target="_blank">Open right MEOW! Book a cat &rarr;</a>
+      </h4>
       <h1>
         Kitties To Go!
       </h1>
       <h3>
         Seattle's Premier drive-thru cat rentals
       </h3>
-      <nav> <!--menu options came up invalid in validator but they're fake for now anyway-->
-  
-            <a class="active" href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Rates</a>
-            <a href="#">Liability Release</a>
-            <a href="#">Kitty Profiles</a>
-            <a href="#">Book a Cat</a>
-      </nav>
     </header>
+      <nav> <!--menu options came up invalid in validator but they're fake for now anyway-->
+        <div class="topnav">
+          <div id="nav-table">
+            <a class="active" href="#about">About</a>
+            <a href="#rates">Rates</a>
+            <a href="#liability release">Liability Release</a>
+            <a href="#kitty profiles">Kitty Profiles</a>
+            <a href="#book a cat">Book a Cat</a>
+          </div>
+        </div>
+      </nav>
+    <main>
     <article>
-      <section>
         <h2>
           The Kitties To Go Story
         </h2>
           <p>
             Cat ipsum dolor sit amet, has closed eyes but still sees you meow. Scratch at the door then walk way destroy the blinds for curl into a furry donut swat turds around the house kick up litter thug cat stare at ceiling light. Intently stare at the same spot paw at beetle and eat it before it gets away scamper.
           </p>
-        </section>
-        <section>  
-      <h2>
+        <h2>
           Testimonials
         </h2>
           <p class="testimonial">
@@ -55,44 +54,41 @@
           <p class="testimonial">
           "Meow get video posted to internet for chasing red dot" -Jenny from the block
           </p>
-        </section>
     </article>
+    </main>
+
   <!--this is for right box area-->
-    <aside>
-      <section>
-      <h2>
+  
+  <aside class="sidebar">
+    <h2>
       Cat of the Week
-      </h2>
+    </h2>
       <img src="images/biscuit.png" alt="Biscuit" width="125" height="100">
-      <h3>
+    <h3>
       The Biscuit
-      </h3>
-      <p class="sidebar-text">
-        All she wants is to break your walls. <!--center is obsolete, should use css but I couldnt figure it out-->
-      </p>
+    </h3>
+    <p class="sidebar-text">
+        <center>All she wants is to break your walls.</center> <!--center is obsolete, should use css but I couldnt figure it out-->
+    </p>
     <div class="sidebar-link">
       <a href="">Book Now &rarr;</a> <!--thanks for tip on arrow, Tobias-->
     </div>
-    </section>
-    <section>
       <h2>
         Fan Favorite
       </h2>
         <img src="images/odin.png" alt="Odin" width="125" height="100">
-       <h3>
+      <h3>
         Odin
       </h3>
     <div class="sidebar-link">
       <a href="">Book Now &rarr;</a>
     </div>
-      </section>
     </aside>
-    </main>
   <footer>
     <h5>
       Kitties To Go!<br>
-      555-867-5309<br>
-        <a href="mailto:kittiestogo@catmail.com?Subject=Hello" target="_top">kittiestogo@catmail.com</a>
+      (555) 867-5309<br>
+        <a href="mailto:kittiestogo@catmail.com?Subject=Hello"target="_top">kittiestogo@catmail.com</a>
     </h5>
     <!--        not sure why the validator is spitting out an error with the email bc it seems to be working. -->
     <h6>

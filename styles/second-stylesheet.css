@@ -1,0 +1,98 @@
+/* thanks for sharing your code, Tobias, it helped me work things out. After running css through lint I now see that warnings to correct, but don't have time for this assignment to make the adjustments. Examples are not using headings as classes and not using a heading number more than once. I used h3 more than one time. */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+a {
+  color: red;
+}
+
+main {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: purple;  
+}
+
+header a, header h1, header h3{
+  padding: 0 4%;
+}
+
+header >a {
+  background-color: yellow;
+  float: right;
+}
+
+header h1 {
+  color: white;
+  font-size: 5em;
+  clear:both;
+}
+
+header h3 {
+  color: gray;
+  font-size: .8em;
+  padding-bottom: 1em;
+}
+
+nav{
+  padding: 1em .45em;
+  background-color: gray;
+}
+
+nav a{
+  width: 16%; /*spacing in nav bar options*/
+  color: purple;
+}
+
+article {
+  width: 65%;
+  float: left;
+  padding: 1.5% 0 4%;
+  margin: 0 1%;
+}
+
+article section {
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+
+aside {
+  width: 30%;
+  display:inline-block;
+  border: 2px solid grey;
+  margin: 5% 0;
+}
+
+aside section {
+  width: 90%;
+  /*background-color: red;*/
+  padding: 1% 2%;
+  margin: 0% auto;
+  text-align: center;
+}
+
+footer {
+  clear:both;
+  color: white;
+  background-color: black;
+  width: 80%;
+  margin: 1% auto;
+}
+
+footer h6 {
+  margin-top: .5%;
+  text-align: center;
+}

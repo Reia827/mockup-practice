@@ -1,0 +1,141 @@
+/* thanks for sharing your code, Tobias, it helped me work things out. After running css through lint I now see that warnings to correct, but don't have time for this assignment to make the adjustments. Examples are not using headings as classes and not using a heading number more than once. I used h3 more than one time. */
+
+box-sizing: border-box;
+
+body {
+  margin: 1rem;
+}
+
+a {
+  color: red;
+}
+
+/* Style the header */
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: left;
+}
+
+header h1 {
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-bottom: 2em
+}
+
+header h3 {
+  color: darkgray;
+  text-align: left;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+header h4 {
+  color: red;
+  text-align: right;
+  padding-top: 1rem;
+  margin-top: 0;
+  margin-right: 2rem;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+/* this nav table doesnt work*/
+.nav-table {
+  display: table;
+  margin: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+article {
+  float: left;
+  width: 40%;
+  margin-left: 15px;
+}
+
+.testimonial {
+  font-style: italic;
+}
+
+.sidebar {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  width: 25%;
+  border: solid;
+}
+
+.sidebar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.sidebar h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: .5rem;
+  margin: 0;
+}
+
+.sidebar h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: .5rem;
+  margin: 0;
+}
+
+.sidebar-text {
+  text-align: left;
+  width: 50%;
+  padding: .5rem;
+  margin: 0;
+}
+
+.sidebar-link {
+  text-align: right;
+  margin-right: 10px;
+}
+
+
+/* Style the footer */
+footer {
+  background-color: black;
+  color: white;
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+footer h5 {
+  padding: 2px;
+  margin: 1px;
+  margin-left: 15px;
+}
+footer h6 {
+  text-align: center;
+  margin: 0;
+}
