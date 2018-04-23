@@ -53,6 +53,7 @@ nav{
 nav a{
   width: 16%; /*spacing in nav bar options*/
   color: darkorange;
+  font-weight: 500;
 }
 
 article {
